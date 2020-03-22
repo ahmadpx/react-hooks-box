@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNetworkStatus } from './hooks/useNetworkStatus';
 
 function App() {
+  const { isOnline } = useNetworkStatus();
+  
   return (
     <div className="App">
-      test
+      {JSON.stringify({ isOnline })}
     </div>
   );
 }
