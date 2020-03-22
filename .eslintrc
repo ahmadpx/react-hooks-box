@@ -1,0 +1,16 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "no-useless-escape": 0,
+    "default-case": 0,
+    "jsx-a11y/href-no-hash": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-duplicate-imports": "warn",
+    "no-unused-expressions": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "16.4.2"
+    }
+  }
+}
